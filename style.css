@@ -180,24 +180,20 @@ body {
   background-color: var(--clr-very-dark-cyan);
 }
 
-.btn:hover,
-.btn:focus {
+.btn:is(:hover, :focus) {
   color: var(--clr-very-light-gray);
   cursor: pointer;
 }
 
-.card-sedans .btn:hover,
-.card-sedans .btn:focus {
+.card-sedans .btn:is(:hover, :focus) {
   background-color: var(--clr-bright-orange);
 }
 
-.card-suvs .btn:hover,
-.card-suvs .btn:focus {
+.card-suvs .btn:is(:hover, :focus) {
   background-color: var(--clr-dark-cyan);
 }
 
-.card-luxury .btn:hover,
-.card-luxury .btn:focus {
+.card-luxury .btn:is(:hover, :focus) {
   background-color: var(--clr-very-dark-cyan);
 }
 
