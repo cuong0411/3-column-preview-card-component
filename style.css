@@ -152,6 +152,8 @@ body {
   display: inline;
   width: 150px;
   margin-top: 2rem;
+  text-align: center;
+  text-decoration: none;
 }
 
 .card-sedans .btn {
